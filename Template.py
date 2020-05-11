@@ -10,8 +10,12 @@ Input(s): list/description
 Process: description of what function does
 Output: return value and description
 """
+from graphics import *
 
 def main():
-    # code here
+    win = GraphWin("title", 600, 300)
+
+    input()
+    
 
 main()    
